@@ -1,0 +1,4 @@
+case_id,task_type,original_label,corrected_label,reason_for_change,guideline_change_proposed
+CAL-001,text_annotation,needs_context=true,needs_context=false,"Unresolved pronoun is not intent ambiguity; schema conflates the two.","Clarify needs_context definition to exclude unresolved referents only."
+CAL-002,llm_evaluation,response_B_wins,tie,"Original winner selected on length, which is not a rubric dimension.","Add a reminder to the rubric that length is not a scoring dimension."
+CAL-003,linguistic_error_analysis,meaning_distortion,instruction_not_followed,"Dominant failure was instruction-following; distortion was secondary.","Record primary and secondary labels when two are plausible."
