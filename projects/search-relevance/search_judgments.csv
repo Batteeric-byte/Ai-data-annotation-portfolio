@@ -1,0 +1,14 @@
+query_id,query,result_id,result_description,relevance_score,rationale,assumption,needs_clarification
+SR-001,"how to keep 4c hair moisturised between wash days",R1,"Guide to refreshing tightly coiled hair with water-based leave-in products",3,"Directly addresses hair type and between-wash routine.","",false
+SR-001,"how to keep 4c hair moisturised between wash days",R2,"Product page for a straightening iron",0,"Does not answer the moisture-maintenance question.","",false
+SR-002,"difference between semantics and pragmatics",R3,"Introductory linguistics page comparing literal meaning and meaning in context",3,"Direct match for the requested comparison.","",false
+SR-002,"difference between semantics and pragmatics",R4,"General English grammar exercises",1,"Related to language learning but does not explain the distinction.","",false
+SR-003,"free beginner spreadsheet course",R5,"Beginner spreadsheet lessons with no paid prerequisite",3,"Matches both beginner level and free-access constraints.","",false
+SR-003,"free beginner spreadsheet course",R6,"Advanced paid data engineering bootcamp",0,"Conflicts with beginner level and free-access constraints.","",false
+SR-004,"python error",R7,"Common Python errors and how to read them (tutorial)",2,"Reasonable orientation content, but not targeted at a specific error.","User wants general guidance on reading Python errors.",true
+SR-004,"python error",R8,"Stack Overflow thread about ModuleNotFoundError",1,"Only useful if the user's error matches; not established by the query.","User wants general guidance on reading Python errors.",true
+SR-004,"python error",R9,"How to read a Python traceback",2,"Helps the user diagnose their own error if they can share the traceback.","User wants general guidance on reading Python errors.",true
+SR-005,"best phone 2026",R10,"2026 flagship comparison covering iOS and Android",2,"Relevant to the general topic but assumes flagship interest.","General 2026 comparison; no budget or OS preference stated.",true
+SR-005,"best phone 2026",R11,"Budget Android buying guide",2,"Relevant only if budget is the constraint; query does not say so.","General 2026 comparison; no budget or OS preference stated.",true
+SR-005,"best phone 2026",R12,"Single-carrier promotional page",1,"Too narrow relative to the open phrasing of the query.","General 2026 comparison; no budget or OS preference stated.",true
+SR-006,"how to stop my cat scratching furniture",R13,"Why cats scratch - understanding natural behaviour",2,"Provides foundational cause without a direct solution; strict reading could score 1.","Disagreement between reviewers A and B recorded in README.",true
