@@ -1,0 +1,5 @@
+case_id,response_id,accuracy,instruction_following,relevance,clarity,tone,decision,rationale
+TIME-001,A,5,5,5,5,5,tie,"Correct calculation; one sentence; direct answer."
+TIME-001,B,5,5,5,5,5,tie,"Correct calculation; one sentence; makes early departure option explicit."
+CHILD-001,A,5,5,5,5,5,winner,"Gives a conditional pathway rather than a fixed age; stays within what the evidence supports."
+CHILD-001,B,3,5,4,4,3,loser,"Presents a contested developmental threshold as settled; prescriptive tone."
