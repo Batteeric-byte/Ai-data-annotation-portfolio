@@ -1,0 +1,4 @@
+case_id,user_prompt,model_response,label,severity,rationale,suggested_fix
+LA-001,"Can I submit the form after 5 pm?","The office closes at 5 pm.",intent_not_resolved,medium,"Related fact does not establish whether submission after 5 pm is possible.","Ask whether the form is online or must be handed in."
+LA-002,"Amina spoke to Grace after she finished the review. Who finished the review?","Amina finished the review.",unsupported_resolution,medium,"The pronoun could refer to Amina or Grace; context does not resolve it.","State that the sentence is ambiguous."
+LA-003,"Could you explain this more simply? I'm new to the topic.","As already stated, the process is straightforward.",tone_mismatch|instruction_not_followed,medium,"Dismissive phrasing and no simpler explanation.","Acknowledge the request and explain in simpler terms."
