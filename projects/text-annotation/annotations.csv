@@ -1,0 +1,6 @@
+text_id,text,intent,tone,needs_context,review_note
+TA-001,"Could you send the report today?",request,neutral,false,"Polite request with a clear action and time reference."
+TA-002,"Why was my payment taken twice?",complaint,frustrated,false,"The question raises a problem with a possible duplicate payment; complaint is the primary intent under this schema."
+TA-003,"She told her that it was ready.",other,neutral,true,"The sentence does not clearly identify the people or what 'it' refers to."
+TA-004,"Thanks for sorting that out so quickly.",other,positive,false,"Expresses appreciation; the schema has no dedicated gratitude label, so 'other' is used and the schema limitation should be reviewed."
+TA-005,"I might be able to finish it tomorrow.",other,uncertain,true,"Hedging signals uncertainty, and the object of 'it' is not specified in this isolated example."
