@@ -1,0 +1,6 @@
+metric,value,note
+cases_rescored,3,"Three illustrative cases in projects/reviewer-calibration."
+labels_changed,3,"All three cases were corrected on re-review."
+guideline_changes_proposed,3,"One per case; see calibration_log.csv."
+inter_annotator_agreement,not_measured,"Single reviewer; no second annotator in this portfolio."
+client_performance,not_reported,"Portfolio demonstration only."
