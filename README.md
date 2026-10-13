@@ -1,74 +1,42 @@
-# 📑 Eric Batte | AI Data Annotation & Language Specialist Portfolio
-**Role:** AI Data Trainer, Quality Assurance Specialist & Linguistic Annotator[span_0](start_span)[span_0](end_span)  
-**Location:** Uganda | **Email:** crucialmail9@gmail.com | **Phone:** +256 754 959 653[span_1](start_span)[span_1](end_span)
+# AI Data Annotation & Model Evaluation Portfolio
 
----
+**Batte Eric | AI Trainer · Language Quality · Data Annotation**
 
-> 💡 **Professional Overview**  
-> M.A.-educated Language Researcher[span_2](start_span)[span_2](end_span) and experienced AI Trainer[span_3](start_span)[span_3](end_span) specializing in high-precision video, image, and text data annotation[span_4](start_span)[span_4](end_span). Proven track record evaluating search engine algorithms, conducting RLHF prompt rankings, detecting model hallucinations[span_5](start_span)[span_5](end_span), and annotating video and image data for naturalness and accuracy[span_6](start_span)[span_6](end_span).
+I work at the intersection of language and AI evaluation. My focus is on checking whether model responses are accurate, follow instructions, fit the context, and communicate clearly. My background in English Language and Communication helps me pay close attention to meaning, implied intent, tone, and ambiguity.
 
----
+This repository contains practical work samples showing how I approach evaluation and annotation. The examples use **synthetic data created for demonstration**; they are not client data and should not be read as results from a paid project.
 
-## 🛠️ Core Skills & Technical Toolkit
+## About this repository
 
-| Category | Competencies & Tools[span_7](start_span)[span_7](end_span) |
-| :--- | :--- |
-| **Annotation Tools** | Scale AI, Labelbox, Doccano, Prodigy, CVAT, Label Studio[span_8](start_span)[span_8](end_span) |
-| **Data Types** | Video/Image Annotation, Bounding Boxes, Named Entity Recognition (NER), Text Classification[span_9](start_span)[span_9](end_span) |
-| **LLM & RLHF Skills** | Prompt Evaluation, Pairwise Search Ranking, Hallucination Detection, Fact-Checking, Model Stumping[span_10](start_span)[span_10](end_span) |
-| **Linguistics & QA** | Pragmatics, Semantics, Grammar Analysis, Rubric Creation, Safety Auditing[span_11](start_span)[span_11](end_span) |
+I built this repository to show my working, not just my conclusions. Annotation and evaluation are often judged by the final label, but the more useful skill is being able to explain *why* a label was chosen, what evidence supports it, and where the guideline runs out. Each project below follows the same pattern: a task, a rubric or schema, worked examples, quality checks, and an honest note about what the example cannot prove. Where I had to make a judgement call, I show the reasoning instead of hiding it.
 
----
+## Projects
 
-## 📸 Highlighted Projects & Experience
+| Project | What it demonstrates |
+|---|---|
+| [LLM response evaluation](projects/llm-response-evaluation/README.md) | Comparing two responses against a rubric, recording evidence, and explaining a rating |
+| [Search relevance review](projects/search-relevance/README.md) | Judging whether search results satisfy the intent behind a query, including ambiguous queries |
+| [Linguistic error analysis](projects/linguistic-error-analysis/README.md) | Finding pragmatic, semantic, reference, and tone failures in model responses |
+| [Text annotation and quality checks](projects/text-annotation/README.md) | Applying consistent labels, handling ambiguous cases, and checking structured data |
+| [Reviewer calibration & self-correction](projects/reviewer-calibration/README.md) | Revisiting earlier judgements, catching my own drift, and documenting corrections |
 
-### 1. Advanced LLM Model Stumping & Rubric Creation
-* **Role:** Domain Expert / AI Trainer[span_12](start_span)[span_12](end_span)
-* **Key Deliverables:** 
-  * Developed complex test rubrics and challenging tasks designed to test language model logic, semantics, and tone[span_13](start_span)[span_13](end_span).
-  * Completed **29 approved submissions** in model stumping, earning top-performer commendations[span_14](start_span)[span_14](end_span).
-  * Audited model outputs for factual accuracy, safety adherence, and hallucination prevention[span_15](start_span)[span_15](end_span).
+## How I approach quality
 
-### 2. Video & Image Quality Annotation (Computer Vision)
-* **Role:** Quality Assurance & Data Annotator[span_16](start_span)[span_16](end_span)
-* **Key Deliverables:**
-  * Evaluated and annotated video clips and images for visual consistency, frame naturalness, and quality[span_17](start_span)[span_17](end_span).
-  * Categorized, tagged, and checked edge cases across diverse visual dataset categories[span_18](start_span)[span_18](end_span).
+1. **Read the instruction and rubric first.** I do not score a response based only on whether it sounds fluent.
+2. **Check the evidence.** I separate what the example actually supports from what it merely suggests.
+3. **Judge the relevant dimensions.** Accuracy, instruction following, relevance, tone, and clarity may need separate scores.
+4. **Record the reason.** A useful annotation should make the decision understandable to another reviewer.
+5. **Flag uncertainty.** When a label depends on missing context, I document that instead of guessing.
+6. **Review my own work later.** Calibration is part of the job, not an afterthought.
 
-### 3. Pairwise Search Result Evaluation & Ranking
-* **Role:** Search Engine Evaluation Specialist[span_19](start_span)[span_19](end_span)
-* **Key Deliverables:**
-  * Analyzed complex side-by-side search results to identify optimal relevance and context awareness[span_20](start_span)[span_20](end_span).
-  * Provided detailed qualitative feedback to improve recommendation systems and retrieval models[span_21](start_span)[span_21](end_span).
+## Background
 
----
+- English Language and Communication, Makerere University
+- Experience in AI response evaluation, search evaluation, language quality review, and multimodal annotation
+- Areas of interest: factuality, instruction following, hallucination detection, pragmatics, semantics, tone, and annotation quality
 
-## 📄 Sample Annotation Output (JSON Structure)
+## Scope and transparency
 
-```json
-{
-  "annotation_id": "vid_eval_9021",
-  "data_type": "video_frame_sequence",
-  "annotation_type": "quality_and_naturalness",
-  "metadata": {
-    "task_type": "visual_quality_check",
-    "language_context": "en-US",
-    "evaluated_by": "Eric Batte"
-  },
-  "quality_metrics": {
-    "naturalness_score": 4.8,
-    "frame_consistency": true,
-    "artifacts_detected": false
-  },
-  "labels": [
-    {
-      "frame_id": 120,
-      "object_class": "Person",
-      "attributes": {
-        "occluded": false,
-        "action": "speaking"
-      }
-    }
-  ]
-}
+The files in this repository are portfolio demonstrations, built with synthetic examples. They show my evaluation process; they do not claim that the sample cases came from a real client, that the scores are benchmark results, or that a particular tool was used to produce them.
 
+For each project, the README explains the task, the rubric, the decision, and the limits of the example.
